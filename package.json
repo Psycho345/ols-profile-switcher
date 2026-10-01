@@ -4,9 +4,15 @@
   "displayName": "OLS Profile Switcher",
   "description": "Switch Odin Language Server profiles from the VS Code status bar.",
   "keywords": [
+    "odin",
+    "odin-language-server",
     "ols",
-    "profiles",
-    "profile"
+    "language-server",
+    "profile",
+    "profile-switcher",
+    "configuration",
+    "developer-tools",
+    "vscode"
   ],
   "version": "1.0.0",
   "license": "MIT",

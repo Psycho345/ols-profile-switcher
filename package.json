@@ -1,0 +1,39 @@
+
+{
+  "name": "ols-profile-switcher",
+  "displayName": "OLS Profile Switcher",
+  "description": "Switch Odin Language Server profiles from the VS Code status bar.",
+  "keywords": [
+    "ols",
+    "profiles",
+    "profile"
+  ],
+  "version": "1.0.0",
+  "publisher": "Psycho345",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "main": "./extension.js",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "workspaceContains:ols.json",
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "olsProfileSwitcher.selectProfile",
+        "title": "OLS: Select Profile"
+      },
+      {
+        "command": "olsProfileSwitcher.refresh",
+        "title": "OLS: Refresh Profile"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "echo No build required"
+  }
+}
